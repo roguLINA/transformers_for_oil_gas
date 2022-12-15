@@ -1,0 +1,33 @@
+"""Setup."""
+from setuptools import setup, find_packages
+
+setup(
+    name="trans_oil_gas",
+    version="1.1",
+    packages=find_packages(),
+    install_requires=[
+        "ipyfilechooser==0.5.0",
+        "jupyter==1.0.0",
+        "joblib==0.14.1",
+        "fastai==2.4.1",
+        "fastcore==1.3.20",
+        "matplotlib==3.4.2",
+        "numpy==1.20.3",
+        "optuna==3.0.2",
+        "pandas==1.2.4",
+        "pytorch_lightning==1.3.0",
+        "scikit-learn==0.24.2",
+        "scipy==1.6.3",
+        "seaborn==0.11.1",
+        "tensorboard>=2.2.0",
+        "torch==1.9.1",
+        "torchmetrics==0.6.0",
+        "torchtext==0.10.1",
+        "torchvision==0.10.1",
+        "tqdm==4.61.0",
+        "transformers==4.22.1",
+        "xgboost==1.4.2",
+        "setuptools==57.0.0",
+        "openpyxl==3.0.7",
+    ],
+)

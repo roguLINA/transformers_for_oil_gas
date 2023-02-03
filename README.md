@@ -1,4 +1,4 @@
-Similarity learning via Transformers: representing time series from oil\&gas
+Robust representations of oil wells' intervals via sparse attention mechanism
 =====
 
 Code for experiments from the article of the same name. Include framework `trans_oil_gas` for dataset of well-intervals generation and training and testing Transformer-based (with Transformer, Informer, and Performer) Siamese and Triplet models. 
